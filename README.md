@@ -2,6 +2,24 @@
 
 Парсинг на python, который скачивает обои для рабочего стола из случайно выбранной категории
 
+## Установка и запуск
+
+Linux, python и pip 3 версии и больше
+
+Подготовка виртуального окружения
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r ./requirements.txt
+```
+
+Запуск скрипта
+
+```sh
+python3 main.py
+```
+
 Переменные для парсинга:
 
 ```env
